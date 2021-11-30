@@ -4,6 +4,7 @@ metadata:
   name: nginx
 spec:
   releaseName: nginx-ingress-controller
+  targetNamespace: kebabtallrik
   chart:
     spec:
       chart: nginx-ingress-controller
